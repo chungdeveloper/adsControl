@@ -1,0 +1,84 @@
+{
+  "adsType": {
+    "banner": {
+      "position": 1,
+      "isShow": true,
+      "isshowPlayer": true,
+      "priority": [
+        "startapp",
+        "facebook"
+      ]
+    },
+    "splash": {
+      "numberClick": 1,
+      "isShow": false,
+      "priority": [
+        "startapp"
+      ]
+    },
+    "interstitial": {
+      "numberClick": 1,
+      "isShow": true,
+      "isDismissPlayer": true,
+      "priority": [
+        "facebook",
+        "startapp"
+      ]
+    },
+    "native": {
+      "isMoreApp": false,
+      "isItemMovie": false,
+      "isShow": true,
+      "isBlockDetail": false,
+      "isPopup": false,
+      "isSlideshow": false,
+      "priority": [
+        "startapp",
+        "facebook"
+      ]
+    },
+    "video": {
+      "numberClick": 1,
+      "isShow": true,
+      "priority": [
+        "facebook",
+        "unity"
+      ]
+    }
+  },
+  "adsNetworks": {
+    "admob": {
+      "banner_id": "ca-app-pub-5783574817588748/9397979033",
+      "interstitial_id": "ca-app-pub-5783574817588748/5245924458",
+      "native_id": ""
+    },
+    "startapp": {
+      "acc_ads_id": "130192073",
+      "app_ads_id": "206410759",
+      "is_enable_return": false
+    },
+    "facebook": {
+      "banner_id": "1095477823976814_1104417809749482",
+      "interstitial_id": "1095477823976814_1104418203082776",
+      "navite_id": "1095477823976814_1104418349749428",
+      "reward_ads_id": "1095477823976814_1095478840643379",
+      "app_id": "1095477823976814"
+    },
+    "mobicore": {
+      "dev_id": ""
+    },
+    "flurry": {
+      "app_ads_id": ""
+    },
+    "ads_adcolony": {
+      "app_ads_id": "",
+      "zone_id": ""
+    },
+    "unity": {
+      "acc_ads_id": "50680049-0c99-4584-b1bc-86f1b78d4397",
+      "reward_ads_id": "3239660"
+    }
+  },
+  "isdisable": false,
+  "isdisableFullMov": false
+}
