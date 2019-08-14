@@ -30,7 +30,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.startapp:inapp-sdk:4.0.2'
     implementation 'com.google.code.gson:gson:2.8.5'
-    implementation 'com.google.android.gms:play-services-ads:18.1.0'
+    implementation 'com.google.android.gms:play-services-ads:18.1.1'
     implementation 'com.facebook.android:audience-network-sdk:5.4.1'
-    implementation project(':unity-ads')
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
 }
